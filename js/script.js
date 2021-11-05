@@ -24,4 +24,4 @@ button.addEventListener('click', () => {
 })
 
 // Preloader
-window.addEventListener("load", loader.className += " hidden");
+window.addEventListener("load", function() { loader.className += " hidden"});
