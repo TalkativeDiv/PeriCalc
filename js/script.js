@@ -19,7 +19,7 @@ const lblPerimeter = document.querySelector('.lbl-perimeter')
 const loader = document.querySelector(".loader");
 
 button.addEventListener('click', () => {
-let area = input.value * 2;
+let area = input.value * input.value;
 let perimeter = input.value * 4;
 lblArea.innerText = `A r e a : ${area}`
 lblPerimeter.innerText = `P e r i m e t e r : ${perimeter}`
